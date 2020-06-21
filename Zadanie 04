@@ -1,0 +1,10 @@
+import math
+def monotonicity(a,x,b):
+  if a==0:
+    print('permanent function')
+  elif a>0:
+    print('increasing function')
+  elif a<0:
+    print('descending function')
+
+monotonicity(2,4,5)
